@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    background-color: #4296c0;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 1rem 0;
+    box-shadow: -1px 1px 15px 5px rgb(70, 69, 69);
+    a{
+        margin: 1rem;
+        color: aliceblue;
+
+        &:hover{
+            color: rgb(255, 106, 106);
+        }
+    }
+    .nav{
+        height: 100%;
+        .navMenu{
+            position: relative;
+            display: inline-block;
+            .menu{
+                cursor: pointer;
+                padding: 1rem;
+                font-size: 1.5rem;
+                color: aliceblue;
+                background-color: transparent;
+                border: none;
+            }
+            &:hover .drop-down{
+                display: block;
+            }
+            .drop-down{
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                a{
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    &:hover{
+                        background-color: rgba(70, 70, 70, 0.308);
+                    }
+                }
+            }
+        }
+        ul{
+            display: none;
+            font-size: 1.5rem;
+            list-style-type: none;
+            li{
+                padding: 1rem;
+                &:hover{
+                    background-color: #2b627e;
+                }
+            }
+        }
+        span:hover ul{
+            display: block;
+        }
+        #up{
+            a{
+                font-size: 3rem;
+                bottom: .01px;
+                right: .02rem;
+                position: fixed;
+                color: rgba(148, 148, 148, 0.705);
+                &:hover{
+                    color: #4296c0;
+                }
+            }
+        }
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        h1, h3{
+            cursor: default;
+            span{
+                &:hover{
+                    color: rgb(255, 106, 106);
+                }
+            }
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        img{
+            width: 50%;
+            border-radius: 25px;
+            box-shadow: -1px 1px 10px 5px rgb(70, 69, 69);
+        }
+    }
+}

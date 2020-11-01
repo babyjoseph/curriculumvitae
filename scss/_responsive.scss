@@ -1,0 +1,67 @@
+@include screen800{
+    .main{
+        .header, .content{
+            width: 85%;
+        }
+        .header{
+            .profile{
+                .title{
+                    h1{
+                        font-size: 2rem;
+                    }
+                    h3{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .content{
+            .about, .edu, .contact, .skill, .language, .hobbies{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@include screen1024{
+
+    .main{
+        overflow-x: hidden;
+        flex-direction: row;
+       .header{
+           .profile{
+               .title{
+                h1,h3{
+                    font-size: 1.5rem;
+                }
+               }
+           }
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100vh;
+        width: 25vw;
+        position: fixed;
+        left: 0;
+        top: 0px;
+            .nav{
+                ul{
+                    display: block;
+                    margin-top: 2rem;
+                }
+                .navMenu{
+                    display: none;
+                }
+                #up{
+                    a{
+                        font-size: 3.5rem;
+                        right: 2rem;
+                    }
+                }
+            }
+        }
+        .content{
+            margin-left: 25vw;
+            width: fit-content;
+        }
+    }
+}
