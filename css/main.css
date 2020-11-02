@@ -240,8 +240,8 @@ html {
 }
 
 .main {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 0.274)), to(rgba(128, 0, 128, 0.274))), url("../image/testbackground.jpg");
-  background: linear-gradient(to right, rgba(255, 0, 0, 0.274), rgba(128, 0, 128, 0.274)), url("../image/testbackground.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 0, 0.274)), to(rgba(128, 0, 128, 0.274))), url("https://lh3.googleusercontent.com/oxxMv9X8pJEE9ehFRe_9Yu_R2d3cXVe4SWB3Fe6RiNBfV-btNiCW-O68Q9XwfrT_aJHjekj0DcRzRxBOiLTgsjWO3ep-aujuPyclhBDTHVnKH1AomxpeYGLsTV2F_tJg5VGLdUEirkYxvjwCKIaQUF_NlY9qkf4Lb9Vk9L-jqzrhEdmOvOHB81ez5Y_cJIVjp9BzqPDHAilKmSAQtyWtVtoPQzWwSVm7J3_iq66kTYzFvK82VNN1N5JiIOsx-5vbnCVSxOSqN_swT7ZuEQBGJNjKZJv8s4zN66VefdWTpcAUNWj326ts-zHK8CeejM_OrUynB7SChjVFHYW9uF5HANTISN3PrROU4PPYGTPkcnyW8c70oP0JeVWOluv0x8C4D_nB2vy57NE_mQ12unONxIA1iwU5C69ZTI6memqMV4V4pL3hk0SbLDKDdLO_jNiuzpOS0XF4Fta-fi9nxuSFiaZ3zSDAzHsiyHgV5A6P-GIEJ_AjhcxmGQNP6haQFGJ_tbaxWWxwq4X70Iu7fOWzi43BN61ZtwN8wLg4UGild42dowmq93Hsp89rrAJM0pz_f0XjBlay68Vbs8enKUhERLMqXQC0UvDruHEiGjfSKRermOy_hyISJWrNVbqlHU-srD1Ibq6i6UucVJLjrsfDLBHGeavtTHhBGPM28K4vAheZBV0aY2s7vQ61-ebPnA=w800-h533-no?authuser=0");
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.274), rgba(128, 0, 128, 0.274)), url("https://lh3.googleusercontent.com/oxxMv9X8pJEE9ehFRe_9Yu_R2d3cXVe4SWB3Fe6RiNBfV-btNiCW-O68Q9XwfrT_aJHjekj0DcRzRxBOiLTgsjWO3ep-aujuPyclhBDTHVnKH1AomxpeYGLsTV2F_tJg5VGLdUEirkYxvjwCKIaQUF_NlY9qkf4Lb9Vk9L-jqzrhEdmOvOHB81ez5Y_cJIVjp9BzqPDHAilKmSAQtyWtVtoPQzWwSVm7J3_iq66kTYzFvK82VNN1N5JiIOsx-5vbnCVSxOSqN_swT7ZuEQBGJNjKZJv8s4zN66VefdWTpcAUNWj326ts-zHK8CeejM_OrUynB7SChjVFHYW9uF5HANTISN3PrROU4PPYGTPkcnyW8c70oP0JeVWOluv0x8C4D_nB2vy57NE_mQ12unONxIA1iwU5C69ZTI6memqMV4V4pL3hk0SbLDKDdLO_jNiuzpOS0XF4Fta-fi9nxuSFiaZ3zSDAzHsiyHgV5A6P-GIEJ_AjhcxmGQNP6haQFGJ_tbaxWWxwq4X70Iu7fOWzi43BN61ZtwN8wLg4UGild42dowmq93Hsp89rrAJM0pz_f0XjBlay68Vbs8enKUhERLMqXQC0UvDruHEiGjfSKRermOy_hyISJWrNVbqlHU-srD1Ibq6i6UucVJLjrsfDLBHGeavtTHhBGPM28K4vAheZBV0aY2s7vQ61-ebPnA=w800-h533-no?authuser=0");
   font-family: 'Comfortaa', cursive;
   display: -webkit-box;
   display: -ms-flexbox;
